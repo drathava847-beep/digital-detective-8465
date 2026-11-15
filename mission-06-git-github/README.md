@@ -41,33 +41,31 @@ The workflow is:
 
 **Create and switch to the branch**
 
-```bash
+
 git switch -c update-about
-```
+
 
 **Review the root README change**
 
-```bash
+
 git diff -- README.md
-```
 
 **Stage the change**
 
-```bash
+
 git add README.md
-```
+
 
 **Commit the change**
 
-```bash
+
 git commit -m "Add My Learning section to README"
-```
 
 **Publish the branch**
 
-```bash
+
 git push -u origin update-about
-```
+
 
 The -u option connects the local branch to its remote counterpart
 for future pushes and pulls.
@@ -198,13 +196,18 @@ Request is a separate action on GitHub.
 The Mission 6 README documents the activity. The root README is
 the file that receives the My Learning section on update-about.
 
-## 7. Evidence / files
+ ## 7. My Learning
+
+- I learned how input, processing, output, and storage work together when typing and saving a document.
+- I learned to use Terminal commands to create, copy, rename, and read files.
+- I learned how Python converts decimal integers into binary and hexadecimal representations.
+
+## 8. Evidence / files
 
 - mission-06-git-github/README.md: Git explanations and activity plan.
 - Root README.md: Will contain My Learning on update-about.
 - GitHub branch and Pull Request: To be created and verified.
 
-## 8. Commit details
+## 9. Commit details
 
  commit:
- 
